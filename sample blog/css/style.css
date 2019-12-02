@@ -1,0 +1,108 @@
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header-logo-area {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.header-logo{
+ font-size: 35px;
+ font-family: normal;
+}
+
+
+.header-list{
+    list-style-type:none;
+    background-color: black;
+    padding: 20px 0;
+}
+
+
+.header-list li {
+    float:left;
+    padding:0 20px;
+    list-style-type: none;
+}
+.header-list li a {
+    color:white;
+}
+.header-list:after {
+    clear :both;
+    display:block;
+    content:"";
+}
+.left-container{
+    float: left;
+    width: 580px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.left-container :after{
+     clear :both;
+    display:block;
+    content:"";
+}
+.right-container{
+    float: right;
+    width: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.right-container :after{
+     clear :both;
+    content:"";
+}
+                                    
+.card-content {
+    padding:20px 0px;
+    margin-bottom: 10px
+}
+.left-blog-img {
+    width:150px;
+    height: 150px;
+    float: left;
+}
+.left-blog-img :after{
+ clear :both;
+ content:"";
+}
+.text-area  a , h1 {
+font-size: 20px;
+margin-top: 0px;
+
+}
+.text-area {
+    padding-left: 10px;
+}
+.right-blog-img {
+width:75px;
+height:75px;
+float: left
+}
+.right-blog-img :after{
+ clear :both;
+ display: block;
+ content:"";
+}
+.new-contents p {
+    font-size: 20px;
+}
+.new-contents{
+   border-bottom: solid 5px #efefef; 
+   margin-bottom: 10px;
+}
+.copyright {
+  color: #777;
+  text-align: center;
+}
+
+footer{
+    border-top:solid 5px #efefef;
+}
+.main :after{
+ clear :both;
+ display: block;
+ content:"";
+}

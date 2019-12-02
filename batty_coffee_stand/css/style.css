@@ -73,6 +73,47 @@ header {
     margin-right: 20px;
 }
 .right-contents{
-    float: right;
+    float: left;
     width: 300px;
+}
+.information-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.information-list li {
+  margin-bottom: 10px;
+}
+
+.staff-list {
+  width: 150px;
+  margin-right: 35px;
+  float: left;
+}
+.staff-list-area:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.staff-list:last-child {
+  margin-right: 0;
+}
+.staff-image {
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+.staff-name {
+  text-align: center;
+}
+.copyright {
+  color: #777;
+  text-align: center;
+}
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
 }
