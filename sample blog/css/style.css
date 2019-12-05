@@ -1,97 +1,123 @@
+body {
+  background-color: #efefef;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
 
+header {
+  margin-top: 20px;
+}
 .container{
-    width: 1000px;
+    width: 960px;
     margin: 0 auto;
 }
 .header-logo-area {
-    text-align: center;
-    margin-bottom: 10px;
+    margin-top:20px;
+    margin-bottom: 30px;
 }
 .header-logo{
  font-size: 35px;
  font-family: normal;
+ text-align: center;
 }
 
 
 .header-list{
-    list-style-type:none;
     background-color: black;
     padding: 20px 0;
+    display:block;
 }
 
 
 .header-list li {
     float:left;
-    padding:0 20px;
+    padding:0 30px;
     list-style-type: none;
 }
 .header-list li a {
     color:white;
+    text-decoration:none;
 }
-.header-list:after {
-    clear :both;
-    display:block;
-    content:"";
-}
+
+
 .left-container{
     float: left;
     width: 580px;
     margin-right: 20px;
     margin-left: 20px;
+   
 }
-.left-container :after{
-     clear :both;
-    display:block;
-    content:"";
-}
-.right-container{
+
+.right-content{
     float: right;
     width: 280px;
     margin-left: 20px;
     margin-right: 20px;
 }
-.right-container :after{
-     clear :both;
-    content:"";
-}
-                                    
+
 .card-content {
-    padding:20px 0px;
-    margin-bottom: 10px
+    padding:40px;
+    margin-bottom: 20px
 }
+.text-area {
+    float:right;
+    width:280px;
+}
+
+.date{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text-area a {
+    color: blue;
+    text-decoration: none;
+}
+
 .left-blog-img {
     width:150px;
     height: 150px;
     float: left;
+    display:block;
+    margin-right:10px;
 }
-.left-blog-img :after{
+.blog-list ::after{
  clear :both;
+ display:block;
  content:"";
 }
-.text-area  a , h1 {
-font-size: 20px;
-margin-top: 0px;
 
-}
-.text-area {
-    padding-left: 10px;
-}
 .right-blog-img {
 width:75px;
 height:75px;
 float: left
 }
-.right-blog-img :after{
+.new-blog-list ::after{
  clear :both;
  display: block;
  content:"";
 }
-.new-contents p {
-    font-size: 20px;
+.new-blog-title h2{
+   font-size:20px;
+   font-weight:bold;
 }
-.new-contents{
-   border-bottom: solid 5px #efefef; 
-   margin-bottom: 10px;
+.new-blog-title {
+   border-bottom: solid 5px white; 
+   padding:10px;
+}
+.new-text-area{
+    width:100px;
+    float:right;
+}
+.date2{
+    font-size:10px;
+    margin-top:0;
+    margin-bottom:10px;
+}
+.new-text-area a{
+    color:blue;
+    text-decoration: none;
 }
 .copyright {
   color: #777;
@@ -99,10 +125,18 @@ float: left
 }
 
 footer{
-    border-top:solid 5px #efefef;
+    border-top:solid 5px white;
+    padding-bottom: 30px
 }
+
 .main :after{
- clear :both;
- display: block;
- content:"";
+    clear :both;
+    display:block;
+    content:"";
+}
+
+header :after{
+     clear :both;
+    display:block;
+    content:"";
 }
